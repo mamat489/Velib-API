@@ -1,0 +1,6 @@
+<div class="mat">
+	<h1>Liste de stations: </h1>
+  <select [(ngModel)]="selectedLevel" (change)="selected()">
+    <option *ngFor="let station of import_station" [ngValue]="station">{{station.name}}</option>
+  </select>
+</div>

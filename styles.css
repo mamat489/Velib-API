@@ -1,0 +1,93 @@
+
+
+body { 
+background-color: #E0E0E0;
+margin:0;
+padding:0;
+background-size: cover;
+font-family: 'Roboto', sans-serif;
+font-size:18px;
+}
+
+
+.fondgris{
+    background-color:#F5F5F5 ;   
+}
+
+.tablemax{width:100%;
+	border-width:0px;
+	border-style:solid;
+	margin : 0 auto;
+
+}
+
+.table_menu{
+    margin-top: 30px;
+    width:80%;
+    border-radius: 9px;
+    background-color: #f2f2f2;
+    padding: 30px;				
+}
+
+.mat select, .mat h1{
+	display: inline;
+vertical-align: top;
+}
+
+.table_maps{
+    margin-top: 30px;
+    width:80%;
+    border-radius: 9px;
+    background-color: #f2f2f2;
+    padding: 30px;				
+}
+
+
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+
+
+
+ul {
+
+    height: 75px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #424242;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+li {
+    display:inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+ /* Style inputs with type="text", select elements and textareas */
+select {
+    padding: 12px; /* Some padding */ 
+    border-radius: 25px;
+    outline: none;
+}
+
+
+select{
+    background-color: #E0E0E0;
+}
